@@ -73,56 +73,51 @@
 
 
     <section class="py-5">
-        <div class="container" style="padding-bottom: 1rem;">
+        <div class="container pb-3">
             <div class="row g-4">
 
-                <div class="col-md-4 col-12">
-                    <div class="card shadow-sm h-100" style="border-radius: 12px; padding: 1.5rem;">
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm h-100 rounded-3 p-3">
 
-                        <div
-                            style="width: 350px; height: 200px; margin: 0 auto; overflow: hidden; border-radius: 12px;">
+                        <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
                             <img src="{{asset('images/Landing-L3-2.png')}}" alt="Tarjeta 1"
-                                style="width: 100%; height: 100%; object-fit: cover;">
+                                class="img-fluid w-100 h-100 object-fit-cover">
                         </div>
 
-                        <div class="card-body" style="text-align: left;">
+                        <div class="card-body text-start">
                             <h5 class="card-title fw-bold mt-3">Gestión de Compras y Aprovisionamientos</h5>
                             <hr>
-
-                            <div style="display: flex; justify-content: space-between;">
-                                <div class="col-md-4">
+                            <div class="d-flex justify-content-between flex-wrap">
+                                <div class="mb-2">
                                     <p><b>Horario:</b> Flexible</p>
                                     <p><b>Modalidad:</b> Online</p>
                                 </div>
-                                <div class="col-md-4">
+                                <div>
                                     <p><b>Inicio:</b> SEPTIEMBRE</p>
                                     <p><b>Duración:</b> 40 horas</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-12">
-                    <div class="card shadow-sm h-100" style="border-radius: 12px; padding: 1.5rem;">
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm h-100 rounded-3 p-3">
 
-                        <div
-                            style="width: 350px; height: 200px; margin: 0 auto; overflow: hidden; border-radius: 12px;">
+                        <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
                             <img src="{{asset('images/Landing-L3-2.png')}}" alt="Tarjeta 2"
-                                style="width: 100%; height: 100%; object-fit: cover;">
+                                class="img-fluid w-100 h-100 object-fit-cover">
                         </div>
 
-                        <div class="card-body" style="text-align: left;">
+                        <div class="card-body text-start">
                             <h5 class="card-title fw-bold mt-3">Ofimática</h5>
                             <hr>
-
-                            <div style="display: flex; justify-content: space-between;">
-                                <div>
+                            <div class="d-flex justify-content-between flex-wrap">
+                                <div class="mb-2">
                                     <p><b>Horario:</b><br>08:00 h - 14:00 h</p>
                                     <p><b>Modalidad:</b><br>Presencial</p>
                                 </div>
-                                <div class="col-md-4">
+                                <div>
                                     <p><b>Inicio:</b><br>SEPTIEMBRE</p>
                                     <p><b>Duración:</b><br>125 horas</p>
                                 </div>
@@ -131,25 +126,23 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-12">
-                    <div class="card shadow-sm h-100" style="border-radius: 12px; padding: 1.5rem;">
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm h-100 rounded-3 p-3">
 
-                        <div
-                            style="width: 350px; height: 200px; margin: 0 auto; overflow: hidden; border-radius: 12px;">
+                        <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
                             <img src="{{asset('images/Landing-L3-2.png')}}" alt="Tarjeta 3"
-                                style="width: 100%; height: 100%; object-fit: cover;">
+                                class="img-fluid w-100 h-100 object-fit-cover">
                         </div>
 
-                        <div class="card-body" style="text-align: left;">
+                        <div class="card-body text-start">
                             <h5 class="card-title fw-bold mt-3">Operaciones Básicas de Restaurante y Bar</h5>
                             <hr>
-
-                            <div style="display: flex; justify-content: space-between;">
-                                <div class="col-md-4">
+                            <div class="d-flex justify-content-between flex-wrap">
+                                <div class="mb-2">
                                     <p><b>Horario:</b><br>15:00 a 21:00</p>
                                     <p><b>Modalidad:</b><br>Presencial</p>
                                 </div>
-                                <div class="col-md-4">
+                                <div>
                                     <p><b>Inicio:</b><br>SEPTIEMBRE</p>
                                     <p><b>Duración:</b><br>315 horas</p>
                                 </div>
@@ -203,51 +196,52 @@
     </section>
 
 
-    <section class="mb-5 bg-section text-center" style="background-image: url('{{asset('images/Landing-L3-3.png')}}'); 
-                    background-size: cover; 
-                    background-position: center 80%; 
-                    background-repeat: no-repeat; 
-                    min-height: 95vh; 
-                    display: flex; 
-                    align-items: flex-start;
-                    justify-content: center;
-                    padding-top: 8vh;">
+    <section class="mb-5 bg-section text-center" style="
+            background-image: url('{{asset('images/Landing-L3-3.png')}}'); 
+            background-size: cover; 
+            background-position: center 80%; 
+            background-repeat: no-repeat; 
+            min-height: 95vh; 
+            display: flex; 
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 8vh;">
 
         <div class="overlay"></div>
 
         <div class="container position-relative">
             <div class="mx-auto" style="max-width: 90%;">
-                <h1 class="text-white"
-                    style="font-size: 4rem; line-height: 1.1; font-weight: 900; margin-bottom: 5rem;">
-                    <b>Becas y ayudas para personas<br>en situación de desempleo</b>
+
+                <h1 class="text-white fw-bold mb-5" style="font-size: clamp(2rem, 5vw, 4rem); line-height: 1.2;">
+                    Becas y ayudas para personas <br>en situación de desempleo
                 </h1>
 
-                <div class="row mb-5" style="gap: 1.5rem 0;">
-                    <div class="col-6">
-                        <div
-                            style="font-size: 1.3rem; background: white; border-radius: 10px; padding: 1.2rem; text-align: center;">
-                            <p>Ayudas de<br><b>Transporte</b></p>
+                <div class="row g-3 mb-4">
+                    <div class="col-12 col-sm-6">
+                        <div class="bg-white rounded-3 p-3 h-100 d-flex align-items-center justify-content-center"
+                            style="font-size: clamp(1rem, 2.5vw, 1.3rem);">
+                            <p class="mb-0">Ayudas de <br><b>Transporte</b></p>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div
-                            style="font-size: 1.3rem; background: white; border-radius: 10px; padding: 1.2rem; text-align: center;">
-                            <p>Ayudas a la<br><b>Conciliación</b></p>
+                    <div class="col-12 col-sm-6">
+                        <div class="bg-white rounded-3 p-3 h-100 d-flex align-items-center justify-content-center"
+                            style="font-size: clamp(1rem, 2.5vw, 1.3rem);">
+                            <p class="mb-0">Ayudas a la <br><b>Conciliación</b></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="row" style="gap: 1.5rem 0;">
-                    <div class="col-6">
-                        <div
-                            style="font-size: 1.3rem; background: white; border-radius: 10px; padding: 1.2rem; text-align: center;">
-                            <p>Becas a personas<br><b>discapacitadas</b></p>
+                <div class="row g-3">
+                    <div class="col-12 col-sm-6">
+                        <div class="bg-white rounded-3 p-3 h-100 d-flex align-items-center justify-content-center"
+                            style="font-size: clamp(1rem, 2.5vw, 1.3rem);">
+                            <p class="mb-0">Becas a personas <br><b>discapacitadas</b></p>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div
-                            style="font-size: 1.3rem; background: white; border-radius: 10px; padding: 1.2rem; text-align: center;">
-                            <p>Becas a víctimas de<br><b>violencia de género</b></p>
+                    <div class="col-12 col-sm-6">
+                        <div class="bg-white rounded-3 p-3 h-100 d-flex align-items-center justify-content-center"
+                            style="font-size: clamp(1rem, 2.5vw, 1.3rem);">
+                            <p class="mb-0">Becas a víctimas de <br><b>violencia de género</b></p>
                         </div>
                     </div>
                 </div>
@@ -260,56 +254,59 @@
     <section class="py-5">
         <div class="container-fluid py-5">
 
-            <div
-                style="background-color: #e0ddddff; border-radius: 16px; padding: 3rem; max-width: 90%; margin: 0 auto;  color: #555;">
+            <div class="mx-auto"
+                style="background-color: #e0ddddff; border-radius: 16px; padding: 3rem; max-width: 90%; color: #555;">
 
-                <div class="row" style="display: flex; align-items: center; justify-content: space-between;">
+                <div class="row align-items-center justify-content-between">
 
-                    <div class="col-md-4 col-12 text-center text-md-start d-flex flex-column justify-content-center"
-                        style="margin-left: 7rem; max-width: 40%;">
-                        <h1 class="mb-0" style="font-size: 4rem;"><b>Ventajas de<br>nuestros cursos</b></h1>
-                        <p class="mt-5" style="background: linear-gradient(to right, #3148caff, #b858cfff); 
-                                    color: white; 
-                                    border-radius: 15px; 
-                                    padding: 1.7rem 7.5rem;
-                                    max-width: 90%;
-                                    font-size: 2rem;
-                                    text-align: center;
-                                    margin-left: 0;">
+                    <div class="col-12 col-md-4 text-center text-md-start d-flex flex-column justify-content-center"
+                        style="max-width: 100%; margin-left: 0;">
+
+                        <h1 class="mb-0 fw-bold" style="font-size: clamp(2rem, 5vw, 4rem);">
+                            Ventajas de<br>nuestros cursos
+                        </h1>
+
+                        <p class="mt-4 text-center text-lg-start mx-auto mx-lg-0" style="background: linear-gradient(to right, #3148caff, #b858cfff); 
+                                color: white; 
+                                border-radius: 15px; 
+                                padding: clamp(1rem, 2vw, 1.7rem) clamp(3rem, 10vw, 7.5rem);
+                                width: fit-content;
+                                font-size: clamp(1.2rem, 3vw, 2rem);">
                             ¿Cuál elegir?
                         </p>
 
+
                     </div>
 
-                    <div class="col-md-7 col-12 ms-auto" style="margin-right: -5rem;">
-                        <div class="row mb-4 justify-content-center" style="gap: 1rem;">
-                            <div class="col-5">
-                                <div
-                                    style="background: white; border-radius: 12px; padding: 8rem 0.5rem; text-align: center; font-size: 1.6rem;">
-                                    <p style="margin: 0;">Subvencionados<br>y 100% gratuitos</p>
+                    <div class="col-12 col-md-7 mt-4 mt-md-0">
+                        <div class="row mb-4 justify-content-center g-3">
+                            <div class="col-6 col-lg-5">
+                                <div class="bg-white rounded-3 d-flex align-items-center justify-content-center"
+                                    style="min-height: clamp(120px, 25vw, 250px); font-size: clamp(1rem, 2vw, 1.6rem); text-align: center;">
+                                    <p class="mb-0">Subvencionados<br>y 100% gratuitos</p>
                                 </div>
                             </div>
 
-                            <div class="col-5">
-                                <div
-                                    style="background: white; border-radius: 12px; padding: 8rem 0.5rem; text-align: center; font-size: 1.6rem;">
-                                    <p style="margin: 0;">Formación<br>oficial</p>
+                            <div class="col-6 col-lg-5">
+                                <div class="bg-white rounded-3 d-flex align-items-center justify-content-center"
+                                    style="min-height: clamp(120px, 25vw, 250px); font-size: clamp(1rem, 2vw, 1.6rem); text-align: center;">
+                                    <p class="mb-0">Formación<br>oficial</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="row justify-content-center" style="gap: 1rem;">
-                            <div class="col-5">
-                                <div
-                                    style="background: white; border-radius: 12px; padding: 8rem 0.5rem; text-align: center; font-size: 1.6rem;">
-                                    <p style="margin: 0;">Agencia de<br>colocación</p>
+                        <div class="row justify-content-center g-3">
+                            <div class="col-6 col-lg-5">
+                                <div class="bg-white rounded-3 d-flex align-items-center justify-content-center"
+                                    style="min-height: clamp(120px, 25vw, 250px); font-size: clamp(1rem, 2vw, 1.6rem); text-align: center;">
+                                    <p class="mb-0">Agencia de<br>colocación</p>
                                 </div>
                             </div>
 
-                            <div class="col-5">
-                                <div
-                                    style="background: white; border-radius: 12px; padding: 8rem 0.5rem; text-align: center; font-size: 1.6rem;">
-                                    <p style="margin: 0;">Prácticas en las<br>mejores empresas</p>
+                            <div class="col-6 col-lg-5">
+                                <div class="bg-white rounded-3 d-flex align-items-center justify-content-center"
+                                    style="min-height: clamp(120px, 25vw, 250px); font-size: clamp(1rem, 2vw, 1.6rem); text-align: center;">
+                                    <p class="mb-0">Prácticas en las<br>mejores empresas</p>
                                 </div>
                             </div>
                         </div>
@@ -324,62 +321,68 @@
 
 
     <section id="form" class="position-relative" style="background-image: url('{{asset('images/Landing-L3-1.png')}}'); 
-                        background-size: cover; 
-                        background-position: center; 
-                        background-repeat: no-repeat; 
-                        min-height: 100vh; 
-                        display: flex; 
-                        align-items: center;">
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            min-height: 100vh; 
+            display: flex; 
+            align-items: center;">
 
         <div class="container-fluid py-5">
             <div class="row">
-                <div class="col-xl-10 offset-xl-1 col-12 offset-0">
+                <div class="col-xl-10 offset-xl-1 col-12">
                     <div class="container-fluid">
-                        <div class="row my-5 py-5 align-items-stretch">
+                        <div class="row my-5 py-5 align-items-center">
 
                             <div class="col-xl-6 col-lg-5 col-12 mb-5 d-flex">
-                                <div class="container-fluid bg-transparent-black"
-                                    style="height: 120%; border-radius: 25px;">
-                                    <div class="row h-100">
+                                <div class="container-fluid bg-transparent-black p-4 p-md-5 rounded-3">
+                                    <div class="row">
                                         <div
-                                            class="col-lg-10 offset-lg-1 col-12 offset-0 d-flex flex-column justify-content-center">
-                                            <h1 class="text-white" style="font-size: 4rem;"><b>¿Quieres<br>estudiar y
-                                                    no<br>sabes qué?</b></h1>
-                                            <h4 class="text-white mt-4" style="font-size: 2.7rem;">Rellena el
-                                                formulario<br>y te ayudamos</h4>
+                                            class="col-12 d-flex flex-column justify-content-center text-center text-lg-start">
+                                            <h1 class="text-white fw-bold"
+                                                style="font-size: clamp(2rem, 5vw, 4rem); line-height: 1.2;">
+                                                ¿Quieres<br>estudiar y no<br>sabes qué?
+                                            </h1>
+                                            <h4 class="text-white mt-4" style="font-size: clamp(1.5rem, 3vw, 2.7rem);">
+                                                Rellena el formulario<br>y te ayudamos
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-xl-6 col-lg-7 col-12 d-flex">
-                                <div class="container-fluid" style="height: 100%;">
-                                    <div class="row h-100">
+                                <div class="container-fluid">
+                                    <div class="row">
                                         <div
-                                            class="col-xl-10 offset-xl-1 col-lg-11 col-12 offset-0 d-flex flex-column justify-content-center">
-
+                                            class="col-xl-10 offset-xl-1 col-12 d-flex flex-column justify-content-center">
                                             <form method="post" action="{{url('bootcamp-en-marketing-digital')}}">
                                                 {{csrf_field()}}
                                                 @if(request()->has('qr'))
                                                     <input type="hidden" name="qr" value="{{ request('qr') }}">
                                                 @endif
+
                                                 <div class="fields">
                                                     <div class="mb-3">
                                                         <label class="text-white" for="name">Nombre:</label>
-                                                        <input type="text" id="name" name="name" required>
+                                                        <input class="form-control" type="text" id="name" name="name"
+                                                            required>
                                                     </div>
                                                     <div class="mb-3">
                                                         <label class="text-white" for="surnames">Apellidos:</label>
-                                                        <input type="text" id="surnames" name="surnames" required>
+                                                        <input class="form-control" type="text" id="surnames"
+                                                            name="surnames" required>
                                                     </div>
                                                     <div class="mb-3">
                                                         <label class="text-white" for="email">Email:</label>
-                                                        <input type="email" id="email" name="email" required>
+                                                        <input class="form-control" type="email" id="email" name="email"
+                                                            required>
                                                     </div>
                                                     <div class="mb-3">
                                                         <label class="text-white" for="phone">Teléfono:</label>
-                                                        <input type="tel" pattern="^\+?[0-9\s\-]{7,15}$" id="phone"
-                                                            name="phone" required>
+                                                        <input class="form-control" type="tel"
+                                                            pattern="^\+?[0-9\s\-]{7,15}$" id="phone" name="phone"
+                                                            required>
                                                     </div>
                                                     <div class="mb-3">
                                                         <label class="text-white mb-2" for="current-position">Estudios
@@ -411,29 +414,25 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="d-flex justify-content-between align-items-center mt-4">
-                                                    <div class="custom-checkbox">
-                                                        <input type="checkbox" id="acceptConditions" required>
-                                                        <label class="ms-2 text-white" for="acceptConditions">Acepto
-                                                            aviso legal</label>
+
+                                                <div
+                                                    class="d-flex flex-column flex-md-row justify-content-between align-items-center mt-4 gap-3">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            id="acceptConditions" required>
+                                                        <label class="form-check-label text-white"
+                                                            for="acceptConditions">Acepto aviso legal</label>
                                                     </div>
-                                                    <div>
-                                                        <button type="submit"
-                                                            class="button-rounded blue border-0 bg-white px-4 py-2"
-                                                            style="background: linear-gradient(to right, #3148caff, #b858cfff);
-                                                                        color: white; 
-                                                                        border-radius: 12px; 
-                                                                        padding: 1.7rem 7.5rem;
-                                                                        min-width: 230px;
-                                                                        min-height: 55px;
-                                                                        font-size: 1.3rem;
-                                                                        display: flex;
-                                                                        align-items: center;
-                                                                        justify-content: center;
-                                                                        margin-left: 0;">
-                                                            <b>ENVIAR</b>
-                                                        </button>
-                                                    </div>
+                                                    <button type="submit" class="button-rounded border-0" style="background: linear-gradient(to right, #3148caff, #b858cfff);
+                                                            color: white; 
+                                                            border-radius: 12px; 
+                                                            padding: clamp(0.6rem, 1vw, 1.2rem) clamp(3rem, 6vw, 7.5rem);
+                                                            font-size: clamp(1rem, 2vw, 1.3rem);
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: center;">
+                                                        <b>ENVIAR</b>
+                                                    </button>
                                                 </div>
                                             </form>
                                         </div>

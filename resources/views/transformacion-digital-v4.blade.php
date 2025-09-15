@@ -48,7 +48,7 @@
                         que buscan las empresas
                     </h1>
                     <h5 class="text-white" style="font-size: 3rem; font-weight: 500; margin-bottom: 4rem;">
-                        Fórmate gratis,<br>
+                        Fórmate gratis, <br>
                         consigue tu <br>
                         certificado de <br>
                         profesionalidad y <br>
@@ -89,12 +89,12 @@
                             <hr>
                             <div class="d-flex justify-content-between flex-wrap">
                                 <div class="mb-2">
-                                    <p><b>Horario:</b> Flexible</p>
-                                    <p><b>Modalidad:</b> Online</p>
+                                    <p><b>Horario: </b><br>Flexible</p>
+                                    <p><b>Modalidad: </b><br>Online</p>
                                 </div>
                                 <div>
-                                    <p><b>Inicio:</b> SEPTIEMBRE</p>
-                                    <p><b>Duración:</b> 40 horas</p>
+                                    <p><b>Inicio: </b><br>SEPTIEMBRE</p>
+                                    <p><b>Duración: </b>40 horas</p>
                                 </div>
                             </div>
                         </div>
@@ -114,12 +114,12 @@
                             <hr>
                             <div class="d-flex justify-content-between flex-wrap">
                                 <div class="mb-2">
-                                    <p><b>Horario:</b><br>08:00 h - 14:00 h</p>
-                                    <p><b>Modalidad:</b><br>Presencial</p>
+                                    <p><b>Horario: </b><br>08:00 - 14:00</p>
+                                    <p><b>Modalidad: </b><br>Presencial</p>
                                 </div>
                                 <div>
-                                    <p><b>Inicio:</b><br>SEPTIEMBRE</p>
-                                    <p><b>Duración:</b><br>125 horas</p>
+                                    <p><b>Inicio: </b><br>SEPTIEMBRE</p>
+                                    <p><b>Duración: </b><br>125 horas</p>
                                 </div>
                             </div>
                         </div>
@@ -139,12 +139,12 @@
                             <hr>
                             <div class="d-flex justify-content-between flex-wrap">
                                 <div class="mb-2">
-                                    <p><b>Horario:</b><br>15:00 a 21:00</p>
-                                    <p><b>Modalidad:</b><br>Presencial</p>
+                                    <p><b>Horario: </b><br>15:00 a 21:00</p>
+                                    <p><b>Modalidad: </b><br>Presencial</p>
                                 </div>
                                 <div>
-                                    <p><b>Inicio:</b><br>SEPTIEMBRE</p>
-                                    <p><b>Duración:</b><br>315 horas</p>
+                                    <p><b>Inicio: </b><br>SEPTIEMBRE</p>
+                                    <p><b>Duración: </b><br>315 horas</p>
                                 </div>
                             </div>
                         </div>
@@ -176,13 +176,13 @@
 
                 <p class="py-2 mb-4"
                     style="font-size: 1.4rem; line-height: 1.6; max-width: 90%; margin: 0 auto; color: #555;">
-                    Este módulo práctico es obligatorio para obtener tu certificado de<br>
+                    Este módulo práctico es obligatorio para obtener tu certificado de <br>
                     profesionalidad y se realiza al finalizar el curso
                 </p>
 
                 <p class="py-2 mb-4"
                     style="font-size: 1.4rem; line-height: 1.6; max-width: 90%; margin: 0 auto; color: #555;">
-                    Es una oportunidad para aplicar tus conocimientos en un entorno profesional,<br>
+                    Es una oportunidad para aplicar tus conocimientos en un entorno profesional, <br>
                     reforzar tu perfil, ampliar tu red de contactos y abrirte puertas a nuevos retos<br>
                     laborales.
                 </p>
@@ -263,7 +263,7 @@
                         style="max-width: 100%; margin-left: 0;">
 
                         <h1 class="mb-0 fw-bold" style="font-size: clamp(2rem, 5vw, 4rem);">
-                            Ventajas de<br>nuestros cursos
+                            Ventajas de <br>nuestros cursos
                         </h1>
 
                         <p class="mt-4 text-center text-lg-start mx-auto mx-lg-0" style="background: linear-gradient(to right, #3148caff, #b858cfff); 
@@ -283,14 +283,14 @@
                             <div class="col-6 col-lg-5">
                                 <div class="bg-white rounded-3 d-flex align-items-center justify-content-center"
                                     style="min-height: clamp(120px, 25vw, 250px); font-size: clamp(1rem, 2vw, 1.6rem); text-align: center;">
-                                    <p class="mb-0">Subvencionados<br>y 100% gratuitos</p>
+                                    <p class="mb-0">Subvencionados <br>y 100% gratuitos</p>
                                 </div>
                             </div>
 
                             <div class="col-6 col-lg-5">
                                 <div class="bg-white rounded-3 d-flex align-items-center justify-content-center"
                                     style="min-height: clamp(120px, 25vw, 250px); font-size: clamp(1rem, 2vw, 1.6rem); text-align: center;">
-                                    <p class="mb-0">Formación<br>oficial</p>
+                                    <p class="mb-0">Formación <br>oficial</p>
                                 </div>
                             </div>
                         </div>
@@ -299,14 +299,14 @@
                             <div class="col-6 col-lg-5">
                                 <div class="bg-white rounded-3 d-flex align-items-center justify-content-center"
                                     style="min-height: clamp(120px, 25vw, 250px); font-size: clamp(1rem, 2vw, 1.6rem); text-align: center;">
-                                    <p class="mb-0">Agencia de<br>colocación</p>
+                                    <p class="mb-0">Agencia de <br>colocación</p>
                                 </div>
                             </div>
 
                             <div class="col-6 col-lg-5">
                                 <div class="bg-white rounded-3 d-flex align-items-center justify-content-center"
                                     style="min-height: clamp(120px, 25vw, 250px); font-size: clamp(1rem, 2vw, 1.6rem); text-align: center;">
-                                    <p class="mb-0">Prácticas en las<br>mejores empresas</p>
+                                    <p class="mb-0">Prácticas en las <br>mejores empresas</p>
                                 </div>
                             </div>
                         </div>
@@ -320,13 +320,13 @@
     </section>
 
 
-    <section id="form" class="position-relative" style="background-image: url('{{asset('images/Landing-L3-1.png')}}'); 
-            background-size: cover; 
-            background-position: center; 
-            background-repeat: no-repeat; 
-            min-height: 100vh; 
-            display: flex; 
-            align-items: center;">
+    <section id="form" class="position-relative" style="background-image: url('{{asset('images/Landing-L3-1.png')}}');
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+           min-height: 100vh;
+           display: flex;
+           align-items: center;">
 
         <div class="container-fluid py-5">
             <div class="row">
@@ -339,11 +339,13 @@
                                     <div class="row">
                                         <div
                                             class="col-12 d-flex flex-column justify-content-center text-center text-lg-start">
-                                            <h1 class="text-white fw-bold"
-                                                style="font-size: clamp(2rem, 5vw, 4rem); line-height: 1.2;">
-                                                ¿Quieres<br>estudiar y no<br>sabes qué?
+                                            <h1 class="text-white fw-bold" style="font-size: clamp(1.8rem, 5vw, 4rem);
+                                                   line-height: 1.3;
+                                                   margin-bottom: clamp(1rem, 3vw, 2rem);">
+                                                ¿Quieres <br>estudiar y no <br>sabes qué?
                                             </h1>
-                                            <h4 class="text-white mt-4" style="font-size: clamp(1.5rem, 3vw, 2.7rem);">
+                                            <h4 class="text-white" style="font-size: clamp(1.2rem, 3vw, 2.5rem);
+                                                   line-height: 1.4;">
                                                 Rellena el formulario<br>y te ayudamos
                                             </h4>
                                         </div>
@@ -364,31 +366,41 @@
 
                                                 <div class="fields">
                                                     <div class="mb-3">
-                                                        <label class="text-white" for="name">Nombre:</label>
-                                                        <input class="form-control" type="text" id="name" name="name"
-                                                            required>
+                                                        <label class="text-white d-block mb-1"
+                                                            style="font-size: clamp(0.9rem, 2.5vw, 1rem);"
+                                                            for="name">Nombre:</label>
+                                                        <input class="form-control" style="padding: 0.8rem;" type="text"
+                                                            id="name" name="name" required>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label class="text-white" for="surnames">Apellidos:</label>
-                                                        <input class="form-control" type="text" id="surnames"
-                                                            name="surnames" required>
+                                                        <label class="text-white d-block mb-1"
+                                                            style="font-size: clamp(0.9rem, 2.5vw, 1rem);"
+                                                            for="surnames">Apellidos:</label>
+                                                        <input class="form-control" style="padding: 0.8rem;" type="text"
+                                                            id="surnames" name="surnames" required>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label class="text-white" for="email">Email:</label>
-                                                        <input class="form-control" type="email" id="email" name="email"
-                                                            required>
+                                                        <label class="text-white d-block mb-1"
+                                                            style="font-size: clamp(0.9rem, 2.5vw, 1rem);"
+                                                            for="email">Email:</label>
+                                                        <input class="form-control" style="padding: 0.8rem;"
+                                                            type="email" id="email" name="email" required>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label class="text-white" for="phone">Teléfono:</label>
-                                                        <input class="form-control" type="tel"
+                                                        <label class="text-white d-block mb-1"
+                                                            style="font-size: clamp(0.9rem, 2.5vw, 1rem);"
+                                                            for="phone">Teléfono:</label>
+                                                        <input class="form-control" style="padding: 0.8rem;" type="tel"
                                                             pattern="^\+?[0-9\s\-]{7,15}$" id="phone" name="phone"
                                                             required>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label class="text-white mb-2" for="current-position">Estudios
-                                                            primarios:</label>
-                                                        <select class="form-control" id="current-position"
-                                                            name="current_position" required>
+                                                        <label class="text-white mb-2 d-block"
+                                                            style="font-size: clamp(0.9rem, 2.5vw, 1rem);"
+                                                            for="current-position">Estudios primarios:</label>
+                                                        <select class="form-control"
+                                                            style="padding: 0.8rem; white-space: normal; line-height: 1.4;"
+                                                            id="current-position" name="current_position" required>
                                                             <option value="" hidden>Seleccione una opción</option>
                                                             <option value="Primarios">Estudios Primarios</option>
                                                             <option value="ESO">ESO/FP I/BUP/Acceso ciclo
@@ -404,10 +416,12 @@
                                                         </select>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label class="text-white mb-2" for="contact-way">Situación
-                                                            actual:</label>
-                                                        <select class="form-control" id="contact-way" name="contact_way"
-                                                            required>
+                                                        <label class="text-white mb-2 d-block"
+                                                            style="font-size: clamp(0.9rem, 2.5vw, 1rem);"
+                                                            for="contact-way">Situación actual:</label>
+                                                        <select class="form-control"
+                                                            style="padding: 0.8rem; white-space: normal; line-height: 1.4;"
+                                                            id="contact-way" name="contact_way" required>
                                                             <option value="" hidden>Seleccione una opción</option>
                                                             <option value="Whatsapp">Desempleado/a</option>
                                                             <option value="Llamada telefónica">Ocupado</option>
@@ -416,24 +430,25 @@
                                                 </div>
 
                                                 <div
-                                                    class="d-flex flex-column flex-md-row justify-content-between align-items-center mt-4 gap-3">
+                                                    class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mt-4 gap-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox"
                                                             id="acceptConditions" required>
                                                         <label class="form-check-label text-white"
-                                                            for="acceptConditions">Acepto aviso legal</label>
+                                                            style="font-size: clamp(0.85rem, 2.5vw, 1rem);"
+                                                            for="acceptConditions">
+                                                            Acepto aviso legal
+                                                        </label>
                                                     </div>
-                                                    <button type="submit" class="button-rounded border-0" style="background: linear-gradient(to right, #3148caff, #b858cfff);
-                                                            color: white; 
-                                                            border-radius: 12px; 
-                                                            padding: clamp(0.6rem, 1vw, 1.2rem) clamp(3rem, 6vw, 7.5rem);
-                                                            font-size: clamp(1rem, 2vw, 1.3rem);
-                                                            display: flex;
-                                                            align-items: center;
-                                                            justify-content: center;">
+                                                    <button type="submit" class="border-0" style="background: linear-gradient(to right, #3148caff, #b858cfff);
+                                                           color: white;
+                                                           border-radius: 12px;
+                                                           padding: clamp(0.6rem, 1.5vw, 1rem) clamp(2rem, 5vw, 4rem);
+                                                           font-size: clamp(1rem, 2vw, 1.2rem);">
                                                         <b>ENVIAR</b>
                                                     </button>
                                                 </div>
+
                                             </form>
                                         </div>
                                     </div>
@@ -456,8 +471,7 @@
                     <div class="accordion" id="faqAccordion">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
                                     ¿Los cursos son 100% gratuitos?
                                 </button>
                             </h2>
@@ -506,8 +520,7 @@
 
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
                                     ¿Qué tengo que hacer para inscribirme?
                                 </button>
                             </h2>

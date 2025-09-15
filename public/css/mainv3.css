@@ -1,0 +1,532 @@
+:root {
+    --black: #000;
+    --light-black: #161817;
+    --dark-grey: #646464;
+    --light-grey: #c1c1c1;
+    --dark-white: #dedede;
+    --white: #fff;
+    --blue: #0A2F5D
+}
+
+.black {
+    color: var(--black);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.light-black {
+    color: var(--light-black);
+}
+
+.bg-light-black {
+    background-color: var(--light-black);
+}
+
+.dark-grey {
+    color: var(--dark-grey);
+}
+
+.bg-dark-grey {
+    background-color: var(--dark-grey);
+}
+
+.light-grey {
+    color: var(--light-grey);
+}
+
+.bg-light-grey {
+    background-color: var(--light-grey);
+}
+
+.bg-blue{
+    background-color: var(--blue);
+}
+
+.dark-white {
+    color: var(--dark-white);
+}
+
+.bg-dark-white {
+    background-color: var(--dark-white);
+}
+
+.white {
+    color: var(--white);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplay/NeueHaasDisplayRoman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+* {
+    font-family: 'NeueHaasDisplay', sans-serif;
+}
+
+video{
+    object-fit: cover;
+}
+
+.centered-box{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+}
+
+form .fields label{
+    font-size: 1.5rem;
+}
+
+form .fields input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--dark-grey);
+    color: var(--dark-grey);
+}
+
+.custom-checkbox input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--black);
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+    vertical-align: middle;
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+    background-color: var(--dark-grey);
+}
+
+.custom-checkbox input[type="checkbox"]:checked::after {
+    content: "✔";
+    color: var(--white);
+    font-size: 14px;
+    position: absolute;
+    top: -2px;
+    left: 2px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+button{
+    background-color: var(--black);
+    color: var(--white);
+    border: 2px solid var(--black);
+    transition: .3s;
+}
+
+button:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.ring-video{
+    overflow: hidden;
+}
+
+.floating-circle{
+    transition: 1.3s ease-out;
+    position: absolute;
+    z-index: 2;
+}
+
+#circle-1{
+    height: 12vw;
+    width: 12vw;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, -100%);
+}
+
+#circle-2{
+    height: 13.5vw;
+    width: 13.5vw;
+    left: 0;
+    top: 100%;
+    transform: translate(-100%, 0);
+}
+
+#circle-3{
+    height: 12vw;
+    width: 12vw;
+    left: 100%;
+    top: 0;
+    transform: translate(0, -100%);
+}
+
+#circle-4{
+    height: 8vw;
+    width: 8vw;
+    left: 100%;
+    top: 0;
+    transform: translate(0, -100%);
+}
+
+#circle-5{
+    height: 10.5vw;
+    width: 10.5vw;
+    left: 100%;
+    top: 100%;
+}
+
+.swiper-button-prev {
+    background-image: url(../images/eoi_bootcamp_marketing_digital_afsformacion05.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.swiper-button-next {
+    background-image: url(../images/eoi_bootcamp_marketing_digital_afsformacion06.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.fit-content{
+    width: fit-content;
+}
+
+.arranged-texts p{
+    font-size: 1.1vw;
+    margin-bottom: 1vw;
+}
+
+.swiper-slide {
+    height: auto !important;
+}
+
+.fixed-section{
+    height: 30rem;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.sphere-video .centered-box{
+    width: 50vw;
+}
+
+@media (orientation: portrait) {
+    .header-logo{
+        height: 12vw;
+    }
+
+    .circle-video video, .ring-video video, .sphere-video video{
+        height: 50vh;
+    }
+
+    .circle-video h1{
+        font-size: 12vw;
+    }
+
+    .circle-video h2{
+        font-size: 6vw;
+    }
+
+    .circle-video p{
+        font-size: 2.5vw;
+        white-space: nowrap;
+    }
+
+    .ring-video h1{
+        font-size: 2.5vw;
+    }
+
+    .ring-video h2{
+        font-size: 2vw;
+    }
+
+    .ring-video h3{
+        font-size: 1.8vw;
+    }
+
+    .ring-video h4{
+        font-size: 1.6vw;
+    }
+
+    .ring-video h5{
+        font-size: 1.4vw;
+    }
+
+    .ring-video img{
+        width: 40vw;
+    }
+
+    .fixed-section{
+        height: 15rem;
+    }
+
+    #target{
+        height: 25rem;
+    }
+
+    #target .centered-box{
+        width: 90%;
+    }
+
+    #FAQ{
+        height: 35rem;
+    }
+
+    #FAQ .centered-box{
+        width: 90%;
+    }
+}
+
+@media (orientation: landscape) {
+    .header-logo{
+        height: 5vw;
+    }
+
+    .circle-video h1{
+        font-size: 8vw;
+    }
+
+    .circle-video h2{
+        font-size: 4vw;
+    }
+
+    .circle-video p{
+        font-size: 1.2vw;
+    }
+
+    .ring-video h1{
+        font-size: 2.5vw;
+    }
+
+    .ring-video h2{
+        font-size: 2vw;
+    }
+
+    .ring-video h3{
+        font-size: 1.8vw;
+    }
+
+    .ring-video h4{
+        font-size: 1.6vw;
+    }
+
+    .ring-video h5{
+        font-size: 1.4vw;
+    }
+
+    .form h1{
+        font-size: 4vw;
+    }
+
+    .ring-video img{
+        width: 30vw;
+    }
+
+    #circle-1{
+        height: 12vw;
+        width: 12vw;
+        left: 0;
+        top: 0;
+        transform: translate(-100%, -100%);
+    }
+
+    #circle-2{
+        height: 13.5vw;
+        width: 13.5vw;
+        left: 0;
+        top: 100%;
+        transform: translate(-100%, 0);
+    }
+
+    #circle-3{
+        height: 12vw;
+        width: 12vw;
+        left: 100%;
+        top: 0;
+        transform: translate(0, -100%);
+    }
+
+    #circle-4{
+        height: 8vw;
+        width: 8vw;
+        left: 100%;
+        top: 0;
+        transform: translate(0, -100%);
+    }
+
+    #circle-5{
+        height: 10.5vw;
+        width: 10.5vw;
+        left: 100%;
+        top: 100%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        width: 4vw !important;
+    }
+}
+
+
+@media (orientation: portrait) and (max-width: 1199px) {
+    .ring-video h1{
+        font-size: 3vw;
+    }
+
+    .ring-video h2{
+        font-size: 3vw;
+    }
+
+    .ring-video h3{
+        font-size: 2.8vw;
+    }
+
+    .ring-video h4{
+        font-size: 2.6vw;
+    }
+
+    .ring-video h5{
+        font-size: 2.4vw;
+    }
+
+    #circle-1{
+        height: 18vw;
+        width: 18vw;
+    }
+
+    #circle-2{
+        height: 22vw;
+        width: 22vw;
+    }
+
+    #circle-3{
+        height: 18vw;
+        width: 18vw;
+    }
+
+    #circle-4{
+        height: 12vw;
+        width: 12vw;
+    }
+
+    #circle-5{
+        height: 16vw;
+        width: 16vw;
+    }
+
+    .sphere-video video{
+        height: 60vh;
+    }
+
+    .sphere-video .centered-box{
+        width: 100vw;
+        margin-top: 2rem;
+    }
+
+    .arranged-texts p{
+        font-size: 2.4vw;
+        margin-bottom: 1vw;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 992px) {
+    .circle-video video, .ring-video video, .sphere-video video{
+        height: 150vh;
+    }
+
+    .sphere-video .centered-box{
+        width: 75vw;
+        margin-top: 2rem;
+    }
+
+    .arranged-texts p{
+        font-size: 1.5vw;
+        margin-bottom: 1vw;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 576px) {
+    .ring-video h1{
+        font-size: 4vw;
+    }
+
+    .ring-video h2{
+        font-size: 4vw;
+    }
+
+    .ring-video h3{
+        font-size: 3.6vw;
+    }
+
+    .ring-video h4{
+        font-size: 3.2vw;
+    }
+
+    .ring-video h5{
+        font-size: 2.8vw;
+    }
+
+    #circle-1{
+        height: 20vw;
+        width: 20vw;
+    }
+
+    #circle-2{
+        height: 25vw;
+        width: 25vw;
+    }
+
+    #circle-3{
+        height: 22vw;
+        width: 22vw;
+    }
+
+    #circle-4{
+        height: 14vw;
+        width: 14vw;
+    }
+
+    #circle-5{
+        height: 18vw;
+        width: 18vw;
+    }
+
+    .sphere-video video{
+        height: 60vh;
+    }
+
+    .sphere-video .centered-box{
+        width: 100vw;
+        margin-top: 2rem;
+    }
+
+    .arranged-texts p{
+        font-size: 2.4vw;
+        margin-bottom: 1vw;
+    }
+}

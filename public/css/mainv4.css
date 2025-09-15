@@ -1,0 +1,315 @@
+:root {
+    --black: #000;
+    --transparent-black: rgba(0, 0, 0, 0.4);
+    --light-black: #161817;
+    --dark-grey: #646464;
+    --light-grey: #c1c1c1;
+    --dark-white: #dedede;
+    --white: #fff;
+    --blue: #0A2F5D;
+    --red: #e15251;
+}
+
+.black {
+    color: var(--black);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-transparent-black{
+    background-color: var(--transparent-black);
+}
+
+.light-black {
+    color: var(--light-black);
+}
+
+.bg-light-black {
+    background-color: var(--light-black);
+}
+
+.dark-grey {
+    color: var(--dark-grey);
+}
+
+.bg-dark-grey {
+    background-color: var(--dark-grey);
+}
+
+.light-grey {
+    color: var(--light-grey);
+}
+
+.bg-light-grey {
+    background-color: var(--light-grey);
+}
+
+.blue{
+    color: var(--blue);
+}
+
+.bg-blue{
+    background-color: var(--blue);
+}
+
+.border-blue{
+    border: 2px solid var(--blue);
+}
+
+.bg-red{
+    background-color: var(--red);
+}
+
+.dark-white {
+    color: var(--dark-white);
+}
+
+.bg-dark-white {
+    background-color: var(--dark-white);
+}
+
+.white {
+    color: var(--white);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.border-white{
+    border: 2px solid var(--white);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+img, video{
+    object-fit: cover;
+}
+
+.background-video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.img-style-1{
+    height: 10rem;
+}
+
+.img-style-2{
+    height: 13rem;
+}
+
+button{
+    border: none;
+}
+
+.button-rounded{
+    border-radius: 10rem;
+}
+
+.red-button:hover{
+    color: var(--black) !important;
+}
+
+.square{
+    width: 12vw;
+    height: 12vw;
+}
+
+.accordion-button {
+    background-color: transparent;
+    color: var(--white);
+    border: none;
+    box-shadow: none;
+    font-size: 1.1rem;
+    padding-left: 0;
+}
+
+.accordion-button::after {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.accordion-item {
+    background-color: var(--black);
+    border: none;
+    border-bottom: 2px solid var(--white);
+    margin-top: 1.5rem;
+}
+
+.accordion-body {
+    color: var(--white);
+    padding-left: 0;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: var(--white);
+    border: none;
+}
+
+.accordion-button:hover {
+    background-color: transparent;
+    color: var(--white);
+}
+
+.custom-checkbox input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--white);
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+    vertical-align: middle;
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+    background-color: transparent;
+}
+
+.custom-checkbox input[type="checkbox"]:checked::after {
+    content: "✔";
+    color: var(--white);
+    font-size: 14px;
+    position: absolute;
+    top: -2px;
+    left: 2px;
+}
+
+form .fields input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--white);
+    color: var(--white);
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+button{
+    background-color: var(--black);
+    color: var(--white);
+    border: 2px solid var(--black);
+    transition: .3s;
+}
+
+button:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.swiper-button-prev {
+    background-image: url(../images/eoi_bootcamp_marketing_digital_afsformacion05.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.swiper-button-next {
+    background-image: url(../images/eoi_bootcamp_marketing_digital_afsformacion06.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.arrow-alter-left {
+    background-image: url(../images/arrow-alter-left.png) !important;
+}
+
+.arrow-alter-right {
+    background-image: url(../images/arrow-alter-right.png) !important;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.fit-content{
+    width: fit-content;
+}
+
+.swiper-slide {
+    height: auto !important;
+}
+
+#sticky-bar{
+    z-index: 9999;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.slide-button{
+    transition: 1s;
+    transform: translate(100vw, 0);
+}
+
+.slide-in{
+    transform: translate(0, 0);
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   .img-style-2{
+       height: 19rem;
+   }
+}
+
+@media (orientation: portrait) {
+    .header-logo{
+        height: 12vw;
+    }
+
+    .square{
+        width: 100%;
+        height: 100%;
+    }
+
+    br{
+        display: none;
+    }
+
+    .custom-checkbox label{
+        font-size: 0.8rem;
+    }
+}
+
+@media (orientation: landscape) {
+    .header-logo{
+        height: 5vw;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        width: 4vw !important;
+    }
+}

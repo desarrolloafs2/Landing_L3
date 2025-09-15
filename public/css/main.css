@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url('../fonts/Staatliches/Staatliches-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.staatliches{
+    font-family: 'Staatliches', sans-serif;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus,
+.form-control-lg:focus,
+.form-control-sm:focus,
+.custom-select:focus,
+.custom-checkbox .form-check-input:focus {
+    border-color: #CC0033 !important; /* Custom border color on focus */
+    box-shadow: 0 0 0 0.25rem rgba(204, 0, 51, 0.25) !important; /* Custom shadow color */
+    outline: none !important; /* Remove default outline */
+}
+
+.text-red{
+    color: #CC0033;
+}
+
+
+.background-red{
+    background-color: #CC0033;
+}
+
+.text-grey{
+    color: #727272;
+}
+
+.background-light-grey{
+    background-color: #EFEFEF;
+}
+
+.text-dark-red{
+    color: #551B1B;
+}
+
+label{
+    cursor: pointer;
+}
+
+.custom-check-input{
+    appearance: none;
+    -webkit-appearance: none;
+    min-width: 24px;
+    min-height: 24px;
+    border: 2px solid #551B1B;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* Style when checkbox is checked */
+.custom-check-input:checked {
+    background-color: #551B1B; /* The "fill" color */
+    box-shadow: 0 0 0 4px white inset; /* White padding inside the checkbox */
+    border-color: #551B1B; /* Keep the same border color */
+}
+
+.btn{
+    border: none;
+}
+
+.btn-main{
+    border-radius: 30px;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+.btn-main:hover{
+   background-color: #CC0033 !important;
+}
+
+.btn-main:active{
+    background-color: #551B1B !important;
+}
+
+.adaptable-text-1{
+    font-size: clamp(2.5rem, 6vw, 8rem);
+    line-height: 1;
+}
+
+.adaptable-text-2{
+    font-size: clamp(1.5rem, 5vw, 4rem);
+}
+
+.adaptable-text-3{
+    font-size: clamp(1rem, 4vw, 2.5rem);
+}
+
+.adaptable-text-4{
+    font-size: clamp(0.5rem, 3vw, 2rem);
+}
+
+.adaptable-text-5{
+    font-size: clamp(0.9rem, 2vw, 1.5rem);
+}
+
+.adaptable-text-6{
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
+}
+
+.dark-red-divider {
+    background-color: #551B1B;
+    height: 4px;
+}
+
+.robot-hand{
+    width: clamp(8rem, 15vw, 20rem);
+    right: 0;
+    top: 0;
+}
+
+.gradient-dark-red-to-red{
+    background: linear-gradient(to right, #551B1B, #CC0033);
+}
+
+.gradient-red-to-dark-red{
+    background: linear-gradient(to right, #CC0033, #551B1B);
+}
+
+.block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 4px solid #CC0033;
+}
+
+.icon-container {
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.icon-container img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-width: 1400px) {
+    .w-xl-25{
+        width: 25% !important;
+    }
+}

@@ -30,128 +30,109 @@
 <body>
 
     <section class="position-relative pb-5" style="background-image: url('{{asset('images/Landing-L3-2.png')}}'); 
-                background-size: cover; 
-                background-position: center bottom; 
-                background-repeat: no-repeat; 
-                min-height: 100vh; 
-                display: flex; 
-                flex-direction: column; 
-                justify-content: space-between; 
-                padding-top: 0;">
+                    background-size: cover; 
+                    background-position: center bottom; 
+                    background-repeat: no-repeat; 
+                    min-height: 100vh; 
+                    display: flex; 
+                    flex-direction: column; 
+                    justify-content: space-between; 
+                    padding-top: 0;">
 
-        <div class="container-fluid mb-5 d-flex flex-column" style="flex: 1;">
-            <div class="row flex-grow-1">
-                <div class="col-xl-10 offset-xl-1 d-flex flex-column justify-content-center">
-                    <h1 class="text-white"
-                        style="font-size: 6.2rem; line-height: 1.1; font-weight: 900; margin-bottom: 3rem;">
-                        Conviértete en el profesional<br>
-                        que buscan las empresas
-                    </h1>
-                    <h5 class="text-white" style="font-size: 3rem; font-weight: 500; margin-bottom: 4rem;">
-                        Fórmate gratis, <br>
-                        consigue tu <br>
-                        certificado de <br>
-                        profesionalidad y <br>
-                        gana experiencia <br>
-                        real en empresas<br>
-                    </h5>
+            <div class="container-fluid mb-5 d-flex flex-column" style="flex: 1;">
+                <div class="row flex-grow-1">
+                    <div class="col-xl-10 offset-xl-1 d-flex flex-column justify-content-center">
+                        <h1 class="text-white"
+                            style="font-size: 6.2rem; line-height: 1.1; font-weight: 900; margin-bottom: 3rem;">
+                            Conviértete en el profesional<br>
+                            que buscan las empresas
+                        </h1>
+                        <h5 class="text-white" style="font-size: 3rem; font-weight: 500; margin-bottom: 4rem;">
+                            Fórmate gratis, <br>
+                            consigue tu <br>
+                            certificado de <br>
+                            profesionalidad y <br>
+                            gana experiencia <br>
+                            real en empresas<br>
+                        </h5>
+                    </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col-xl-10 offset-xl-1">
-                    <div style="margin-top: auto; margin-bottom: -3rem;">
-                        <h6 class="text-white mb-2" style="font-size: 1rem; font-weight: 400;">
-                            Formación subvencionada por:
-                        </h6>
-                        <img class="header-logo" src="{{asset('images/MEFPD.png')}}" alt="Logo AMEFPD">
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1">
+                        <div style="margin-top: auto; margin-bottom: -3rem;">
+                            <h6 class="text-white mb-2" style="font-size: 1rem; font-weight: 400;">
+                                Formación subvencionada por:
+                            </h6>
+                            <img class="header-logo" src="{{asset('images/MEFPD.png')}}" alt="Logo AMEFPD">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
-    <section class="py-5">
+        <section class="py-5">
         <div class="container pb-3">
-            <div class="row g-4">
 
-                <div class="col-12 col-md-4">
-                    <div class="card shadow-sm h-100 rounded-3 p-3">
+            @if(empty($courses))
+                <p>No hay cursos disponibles.</p>
+            @else
+                <div id="cursosCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                    <div class="carousel-inner" style="min-height: 420px;">
+                        @php
+                            $chunks = array_chunk($courses, 3);
+                        @endphp
 
-                        <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
-                            <img src="{{asset('images/Landing-L3-2.png')}}" alt="Tarjeta 1"
-                                class="img-fluid w-100 h-100 object-fit-cover">
-                        </div>
+                        @foreach($chunks as $i => $chunk)
+                            <div class="carousel-item {{ $i === 0 ? 'active' : '' }}">
+                                <div class="row g-4">
+                                    @foreach($chunk as $curso)
+                                        <div class="col-12 col-md-4">
+                                            <div class="card shadow-sm h-100 rounded-3 p-3">
+                                                <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+                                                    <img src="{{ isset($curso['imagen']) ? asset($curso['imagen']) : asset('images/placeholder.png') }}"
+                                                        alt="{{ $curso['titulo'] }}"
+                                                        class="img-fluid w-100 h-100 object-fit-cover">
+                                                </div>
 
-                        <div class="card-body text-start">
-                            <h5 class="card-title fw-bold mt-3">Gestión de Compras y Aprovisionamientos</h5>
-                            <hr>
-                            <div class="d-flex justify-content-between flex-wrap">
-                                <div class="mb-2">
-                                    <p><b>Horario: </b><br>Flexible</p>
-                                    <p><b>Modalidad: </b><br>Online</p>
-                                </div>
-                                <div>
-                                    <p><b>Inicio: </b><br>SEPTIEMBRE</p>
-                                    <p><b>Duración: </b>40 horas</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="card shadow-sm h-100 rounded-3 p-3">
-
-                        <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
-                            <img src="{{asset('images/Landing-L3-2.png')}}" alt="Tarjeta 2"
-                                class="img-fluid w-100 h-100 object-fit-cover">
-                        </div>
-
-                        <div class="card-body text-start">
-                            <h5 class="card-title fw-bold mt-3">Ofimática</h5>
-                            <hr>
-                            <div class="d-flex justify-content-between flex-wrap">
-                                <div class="mb-2">
-                                    <p><b>Horario: </b><br>08:00 - 14:00</p>
-                                    <p><b>Modalidad: </b><br>Presencial</p>
-                                </div>
-                                <div>
-                                    <p><b>Inicio: </b><br>SEPTIEMBRE</p>
-                                    <p><b>Duración: </b><br>125 horas</p>
+                                                <div class="card-body text-start">
+                                                    <h5 class="card-title fw-bold mt-3">{{ $curso['titulo'] }}</h5>
+                                                    <hr>
+                                                    <div class="d-flex justify-content-between flex-wrap">
+                                                        <div class="mb-2">
+                                                            <p><b>Horario:</b><br>{{ $curso['horario'] }}</p>
+                                                            <p><b>Modalidad:</b><br>{{ $curso['modalidad'] }}</p>
+                                                        </div>
+                                                        <div>
+                                                            <p><b>Inicio:</b><br>{{ $curso['inicio'] }}</p>
+                                                            <p><b>Duración:</b><br>{{ $curso['duracion'] }}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endforeach
                                 </div>
                             </div>
-                        </div>
+                        @endforeach
                     </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cursosCarousel" data-bs-slide="prev"
+                        style="position: absolute; top: 50%; transform: translateY(-50%); left: -150px; background: none; opacity: 1; width: auto; border: none; outline: none; box-shadow: none; padding: 0; margin: 0; z-index: 5; user-select: none;">
+                        <img src="{{ asset('images/l-arrow.png') }}" alt="Anterior"
+                            style="width: 40px; height: 40px; display: block; pointer-events: none;">
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#cursosCarousel" data-bs-slide="next"
+                        style="position: absolute; top: 50%; transform: translateY(-50%); right: -150px; background: none; opacity: 1; width: auto; border: none; outline: none; box-shadow: none; padding: 0; margin: 0; z-index: 5; user-select: none;">
+                        <img src="{{ asset('images/r-arrow.png') }}" alt="Siguiente"
+                            style="width: 40px; height: 40px; display: block; pointer-events: none;">
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
                 </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="card shadow-sm h-100 rounded-3 p-3">
-
-                        <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
-                            <img src="{{asset('images/Landing-L3-2.png')}}" alt="Tarjeta 3"
-                                class="img-fluid w-100 h-100 object-fit-cover">
-                        </div>
-
-                        <div class="card-body text-start">
-                            <h5 class="card-title fw-bold mt-3">Operaciones Básicas de Restaurante y Bar</h5>
-                            <hr>
-                            <div class="d-flex justify-content-between flex-wrap">
-                                <div class="mb-2">
-                                    <p><b>Horario: </b><br>15:00 a 21:00</p>
-                                    <p><b>Modalidad: </b><br>Presencial</p>
-                                </div>
-                                <div>
-                                    <p><b>Inicio: </b><br>SEPTIEMBRE</p>
-                                    <p><b>Duración: </b><br>315 horas</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            @endif
         </div>
     </section>
 
